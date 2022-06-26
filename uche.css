@@ -1,0 +1,702 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+ header{
+    background-color: black;
+}
+.nav{
+    width: 100%;
+    height: 50%;
+    background: rgba(0,0,0,8);
+    border-top: 1px solid rgba(225, 225,225,225, .2);
+    border-bottom: 1px solid rgba(225, 225,225,225, .2);
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    float: right;
+    padding: 0 100px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 30px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+.png{
+    float: left;
+    
+} 
+/* .container22{
+    position: relative;
+    background-color: #000;
+}
+.menu{
+    padding-left: 550px;
+    background-color: #000;
+}
+.wa{
+    margin-left: 80px;
+    margin-bottom: -40px;
+    background-color: black;
+}
+.m{
+    padding-right: 50px;
+}
+.swr{
+
+        margin-left: 490px;
+}
+.m2{
+
+    color: blue;
+    text-decoration:none ;
+    font-size: 15px;
+}
+.m2:hover{
+    color: purple;
+    text-decoration: none;
+}
+.img{
+    margin-left: 250px;
+/* } */
+
+.img{
+    margin-left: 250px;
+}
+ 
+ .save{ 
+    padding-left: 300px;
+}
+
+.cus2{
+    padding-left: 60px;
+}
+ .cus{
+    padding-right: 50px;
+    font-size: 27px;
+}
+.com2{
+    padding-left: px;
+}
+ /* .state{ 
+    padding-left: 500px;
+} */ 
+.cus{
+    position: absolute;
+    padding-left: 900px;
+    font-size: 22px;
+    padding-top: -120px;
+    
+}  
+.com{
+    position: absolute;
+    padding-left: 270px;
+    font-size: 22px;
+    margin-top: 100px;
+}
+
+.re{
+    padding-left: 800px;
+    font-size: 22px;
+}
+.re3{
+    padding-left: 850px;
+    font-size: 22px;
+}
+.r4{
+    padding-left: 570px;
+    font-size: 22px;
+}
+.idris{
+    position: absolute;
+    margin-left:280px;
+    font-size: 22px;
+    margin-top: -30px;
+}
+.idri{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: -30px;
+    font-size: 22px;
+}
+.st{
+    position: absolute;
+    margin-left: 7px;
+    font-size: 22px;
+}
+.idr{
+    position: absolute;
+    margin-left: 840px;
+    margin-top: -30px;
+    font-size: 22px;
+}
+.me{
+    text-align: center;
+    color: rgb(98, 98, 192);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.me2{
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.date{
+    font-family:Algerian;
+    font-size: 16px;
+    color: blueviolet;
+    padding-left: 10px;
+
+}
+.font{
+    padding-left: 10px;
+    font-family:Bodoni MT;
+    font-size: 17px;
+    color: black;
+}
+.div{
+    text-overflow: ellipsis;
+    color: rgb(228, 199, 199);
+}
+.flex{
+    position: absolute;
+    display: flex;
+    
+}
+.box{
+    background-color: rgb(236, 231, 231);
+    width: 240px;
+    height: 300px;
+    margin-left: 220px;
+     /* box-shadow: inset 6px 8px 10px 0 rgba(0,0,0,0.2), inset -6px -6px 10px 0 rgba(255, 255 ,255, 1);  */
+     padding-top: 25px;
+}
+.fa{
+    border-color: green;
+    color: green;
+}
+.fb{
+    color: blueviolet;
+}
+.flex1{
+    position: absolute;
+    display: flex;
+    
+}
+.box1{
+    background-color:  rgb(236, 231, 231);
+    width: 240px;
+    height: 300px;
+    margin-left: 500px;
+     /* box-shadow: inset 6px 8px 10px 0 rgba(0,0,0,0.2), inset -6px -6px 10px 0 rgba(255, 255 ,255, 1);  */
+     padding-top: 25px;
+}
+.flex2{
+    position: absolute;
+    display: flex;
+    
+}
+.box2{
+    background-color:  rgb(236, 231, 231);
+    width: 240px;
+    height: 300px;
+    margin-left: 760px;
+     /* box-shadow: inset 6px 8px 10px 0 rgba(0,0,0,0.2), inset -6px -6px 10px 0 rgba(255, 255 ,255, 1);  */
+     padding-top: 25px;
+}
+.in{
+    text-align: center;
+    font-size: 30px;
+    font-family: algerian;
+}
+.inn{
+    text-align: center;
+    font-family: Bell MT;
+    font-size: 20px;
+    
+}
+.dem{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 300px;
+}
+.hen3{
+    margin-left: 150px;
+}
+.yam{
+    margin-top: 400px;
+    margin-left: 200px;
+    position: absolute;
+
+}
+.hen{
+    margin-top: 400px;
+    margin-left: 200px;
+    position: absolute;
+    bottom: -1000px;
+    left: -40px;
+}
+.ret{
+    position: absolute;
+    padding-left: 600px;
+    margin-top:700px;
+    font-size: 18px;
+    font-family: Bell MT;
+}
+#parent{
+    position: relative;
+}
+.fs{
+    position: absolute;
+    color: blueviolet;
+    margin-top: 10px;
+    margin-left: 37px;
+    /* background-color:  rgb(184, 172, 172); */
+    /* border-radius: 50px;
+    width: 90px;
+    height: 90px; */
+   }
+.bord{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 700px;
+    margin-left: 490px;
+} 
+.parent-1{
+    position: relative;
+}
+.fo{
+    margin-top: 1200px;
+    margin-left: 800px;
+    position: absolute;
+}
+.food{
+    margin-top: 1400px;
+    margin-left: 880px;
+    position: absolute;
+    /* bottom: -1000px; */
+    left: -40px;
+}
+.faq{
+    position: absolute;
+    color: blueviolet;
+    margin-top: 1450px;
+    margin-left: 800px;
+}
+.faqq{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.rett{
+    position: absolute;
+    padding-left: 100px;
+    margin-top:1500px;
+    font-size: 18px;
+    font-family: Bell MT;
+}
+.stren{
+    font-size: 45px;
+    font-family:Bell MT;
+}
+.container{
+    margin-left: 100px;
+}
+.move{
+    margin-left: 80px;
+}
+.what{
+    text-align: center;
+    font-size: 26px;
+    font-family: bell MT;
+    color: blueviolet;
+}
+.hum{
+    margin-left: 140px;
+}
+.ili{
+    margin-left: 130px;
+    font-size:30px;
+    font-family: Aharoni;
+    color: blueviolet;
+}
+.under{
+    margin-left: 20px;
+}
+.unders{
+    margin-left: 55px;
+}
+.move2{
+    margin-left: 20px;
+}
+.flex4{
+    position: absolute;
+    display: flex;
+}
+.box4{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: -490px;
+    margin-left: 740px;
+    box-shadow: inset 6px 8px 10px 0 rgba(0,0,0,0.2), inset -6px -6px 10px 0 rgba(255, 255 ,255, 1);
+}
+.miss{
+    font-family:Bodoni MT Condensed ;
+    font-size: 30px;
+    padding-left: 50px;
+}
+.miss2{
+    font-family: Berlin Sans FB;
+    padding-left: 50px;
+    font-size: 16px;
+    
+}
+.miss3{
+    font-family: Berlin Sans FB;
+    padding-left: 50px;
+    font-size: 16px;
+}
+/* .parent-3{
+    position: relative;
+} */
+
+.flex5{
+    position: absolute;
+    display: flex;
+}
+.box5{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: -300px;
+    margin-left: 740px;
+    box-shadow: inset 6px 8px 10px 0 rgba(0,0,0,0.2), inset -6px -6px 10px 0 rgba(255, 255 ,255, 1);
+}
+.flex6{
+    position: absolute;
+    display: flex;
+}
+.box6{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: -100px;
+    margin-left: 740px;
+    box-shadow: inset 6px 8px 10px 0 rgba(0,0,0,0.2), inset -6px -6px 10px 0 rgba(255, 255 ,255, 1);
+}
+.wow{
+    margin-top: 1750px;
+    position: absolute;
+}
+/* .wow{
+    margin-top: 1000px;
+    position: absolute;
+} */
+.flex20{
+    position: absolute;
+    display: flex;
+}
+.box20{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: -7000px;
+    margin-left: 70px;
+    font-family: Bodoni MT ;
+    font-size: 20px;
+
+}
+.flex7{
+    position: absolute;
+    display: flex;
+}
+.box7{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: 1985px;
+    margin-left: 70px;
+    font-family: Bodoni MT ;
+    font-size: 20px;
+
+}
+.flex8{
+    position: absolute;
+    display: flex;
+}
+.box8{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: 1986px;
+    margin-left: 450px;
+    font-family: Calibri (Body) ;
+    font-size: 14px;
+}
+.flex9{
+    position: absolute;
+    display: flex;
+    color: #000;
+}
+.box9{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: 1986px;
+    margin-left: 770px;
+    font-family: Calibri (Body) ;
+    font-size: 14px;
+    color: black;
+}
+.flex11{
+    position: absolute;
+    display: flex;
+    color: #000;
+}
+.box11{
+    background-color: white;
+    width: 100px;
+    height: 170px;
+    margin-top: 1986px;
+    margin-left: 1050px;
+    font-family: Calibri (Body) ;
+    font-size: 14px;
+    color: black;
+}
+.fas{
+    height: 20px;
+}
+.lord{
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid ;
+    height: 70px;
+    border-color:rgb(147, 119, 173);
+    height: 30px;
+
+}
+.navv{
+    width: 100%;
+    height: 50%;
+    background: rgba(0,0,0,8);
+    border-top: 1px solid rgba(225, 225,225,225, .2);
+    border-bottom: 1px solid rgba(225, 225,225,225, .2);
+    position: sticky;
+    top: 0;
+}
+.navv ul{
+    display: flex;
+    margin: 0;
+    float: right;
+    padding: 0 100px;
+}
+.navv ul li{
+    list-style: none;
+}
+
+.navv ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 30px;
+}
+ .navv ul li a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+.good{
+    margin-top: -100px;
+}
+.About{
+    text-align: center;
+    color: rgb(157, 123, 189);
+}
+.About2{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: Arial;
+}
+.align{
+    text-align: center;
+    font-size: 17px;
+}
+.harn{
+    text-align: center;
+    font-size: 23px;
+}
+.A4{
+    margin-left: 160px;
+}
+.A1{
+    margin-left: 500px;
+    border-radius: 70px;
+    margin-top: -350px;
+}
+.A2{
+    margin-left: 840px;
+    border-radius: 70px;
+    margin-top:-350px ;
+}
+.A3{
+    margin-left: 800px;
+}
+.flex16{
+    position: absolute;
+    display: flex;
+    
+}
+.box16{
+    background-color:red;
+    width: 340px;
+    height: 300px;
+    margin-left: 120px;
+     /* box-shadow: inset 6px 8px 10px 0 rgba(0,0,0,0.2), inset -6px -6px 10px 0 rgba(255, 255 ,255, 1);  */
+     padding-top: -205px;
+}
+.want{
+    font-family: Bookman Old Style;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.want1{
+    padding-left: 30px;
+}
+.button{
+    margin-left: 100px;
+    width: 100px;
+    color: white;
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    border: none;
+}
+.Get{
+    color: black;
+    font-size: 18px;
+}
+.button:hover{
+    background-color:  rgb(157, 123, 189);
+}
+.please{
+    padding-left: 50px;
+    font-family:  Bookman Old Style;
+    padding-top: 100px;
+}
+.full{
+    float: right;
+    margin-right: 200px;
+    margin-top: -60px;
+}
+.type{
+    width: 100%;
+}
+.class{
+    margin-top: -20px;
+}
+.type:hover{
+     border-color: rgb(157, 123, 189);
+}
+.button2{
+    width: 100px;
+    color: white;
+    width: 220px;
+    height: 50px;
+    background-color: rgb(165, 149, 180);
+    border: none;
+}
+.Get2{
+    color: black;
+    font-size: 18px;
+}
+.button2:hover{
+    background-color:  rgb(157, 123, 189);
+}
+.wow5{
+    margin-top: 300px;
+    position: absolute;
+}
+.flex24{
+    position: absolute;
+    display: flex;
+}
+.box24{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: 505px;
+    margin-left: 70px;
+    font-family: Bodoni MT ;
+    font-size: 20px;
+
+}
+.flex25{
+    position: absolute;
+    display: flex;
+}
+.box25{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: 506px;
+    margin-left: 450px;
+    font-family: Calibri (Body) ;
+    font-size: 14px;
+}
+.flex26{
+    position: absolute;
+    display: flex;
+    color: #000;
+}
+.box26{
+    background-color: white;
+    width: 370px;
+    height: 170px;
+    margin-top: 505px;
+    margin-left: 770px;
+    font-family: Calibri (Body) ;
+    font-size: 14px;
+    color: black;
+}
+.flex27{
+    position: absolute;
+    display: flex;
+    color: #000;
+}
+.box27{
+    background-color: white;
+    width: 100px;
+    height: 170px;
+    margin-top: 506px;
+    margin-left: 1050px;
+    font-family: Calibri (Body) ;
+    font-size: 14px;
+    color: black;
+}
